@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/f656425734.js" crossorigin="anonymous"></script>
+    <title>Chats - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>23:45</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span
+          ><a href="friends.html"><i class="fas fa-user-friends fa-lg"></i></a
+        ></span>
+        <span>
+          <a href="find.html"> <i class="fas fa-search fa-lg"></i></a
+        ></span>
+        <span class="cog-container">
+          <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+          <div class="point"></div>
+        </span>
+        <span
+          ><a href="index.html"><i class="fas fa-sign-out-alt fa-lg"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbPesuw1BNWMqYPkMKuNAdWKknHEGewv1rdg&s" class="user-component__avatar" />
+              <div class="user-component__text">
+              <h4 class="user-component__title">Mike Breen</h4>
+              <h4 class="user-component__subtitle">BANG BANG!!</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">21:22</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"> <span class="nav__alert"></span><i class="fas fa-ellipsis-h fa-2x"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>please change to mobile!</span>
+    </div>
+  </body>
+</html>
